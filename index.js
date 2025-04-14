@@ -4,7 +4,7 @@ function displayTemperature(response) {
     let cityElement = document.querySelector("#current-city");
     cityElement.innerHTML = response.data.city;
     temperatureElement.innerHTML = temperature;
-  } // this is just a test comment //
+  } // this is just a test comment - dds,bb  //
   
   function search(event) {
     event.preventDefault();
